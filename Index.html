@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Quiz App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- NAME SCREEN -->
+    <div id="name-screen">
+        <h1>Quiz Application</h1>
+        <input type="text" id="username" placeholder="Enter your name">
+        <button onclick="startQuiz()">Start Quiz</button>
+    </div>
+
+    <!-- QUIZ SCREEN -->
+    <div id="quiz-screen" style="display:none;">
+        <h2 id="question"></h2>
+
+        <div id="options"></div>
+
+        <p id="feedback"></p>
+
+        <div class="button-group">
+            <button id="back-btn">⬅ Back</button>
+            <button id="next-btn">Next ➡</button>
+        </div>
+    </div>
+
+    <!-- RESULT SCREEN -->
+    <div id="result" style="display:none;">
+        <h2 id="final-score"></h2>
+        <button id="restart-btn">Restart Quiz</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
