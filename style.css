@@ -1,0 +1,151 @@
+/* =========================
+   GLOBAL STYLES
+========================= */
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1d2671, #c33764);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* =========================
+   CONTAINER
+========================= */
+.container {
+    background: #fff;
+    width: 90%;
+    max-width: 500px;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+/* HEADINGS */
+h1, h2 {
+    color: #1d2671;
+}
+
+/* INPUT FIELD */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0;
+    border-radius: 10px;
+    border: 2px solid #1d2671;
+    font-size: 16px;
+}
+
+/* =========================
+   OPTIONS BUTTONS
+========================= */
+#options button {
+    width: 100%;
+    margin: 8px 0;
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 12px;
+    border: 2px solid #1d2671;
+    background: #f9f9ff;
+    color: #1d2671;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#options button:hover {
+    background: #1d2671;
+    color: white;
+}
+
+/* CORRECT & WRONG COLORS */
+.correct {
+    background-color: #2ecc71 !important;
+    color: white !important;
+    border-color: #27ae60;
+}
+
+.wrong {
+    background-color: #e74c3c !important;
+    color: white !important;
+    border-color: #c0392b;
+}
+
+/* FEEDBACK */
+#feedback {
+    font-weight: bold;
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+/* =========================
+   NAVIGATION BUTTONS
+========================= */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#back-btn {
+    background: #95a5a6;
+    color: white;
+    flex: 1;
+    margin-right: 5px;
+}
+
+#back-btn:hover {
+    background: #7f8c8d;
+}
+
+#next-btn {
+    background: #3498db;
+    color: white;
+    flex: 1;
+    margin-left: 5px;
+}
+
+#next-btn:hover {
+    background: #2980b9;
+}
+
+#restart-btn {
+    background: #c33764;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#restart-btn:hover {
+    background: #a32b58;
+}
+
+/* =========================
+   RESULT
+========================= */
+#result {
+    display: none;
+}
+
+#final-score {
+    font-size: 18px;
+    margin: 15px 0;
+    color: #1d2671;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 480px) {
+    h1 { font-size: 22px; }
+    button, input { font-size: 15px; }
+}
