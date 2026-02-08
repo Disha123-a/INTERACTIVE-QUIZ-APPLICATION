@@ -51,3 +51,7 @@ CSS for styling and responsiveness
 JavaScript for logic and interactivity
 
 This project demonstrates core front-end development concepts such as DOM manipulation, event handling, conditional logic, and responsive design. It is suitable as a beginner-to-intermediate level project and fulfills the requirements of an interactive quiz application with scoring and dynamic question handling.
+
+OUTPUT
+
+<img width="1275" height="900" alt="image" src="https://github.com/user-attachments/assets/dc599c00-ed5b-4a7d-8a2d-6ae597d63433" />
